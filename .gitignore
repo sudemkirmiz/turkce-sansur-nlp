@@ -1,0 +1,25 @@
+# --- Sanal Ortamlar (YÜKLENMEMELİ) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Python Ön Bellek Dosyaları ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Editör Ayarları (VS Code vb.) ---
+.vscode/
+.idea/
+
+# --- İşletim Sistemi Dosyaları ---
+.DS_Store
+Thumbs.db
+
+# --- (Opsiyonel) Çıktı Dosyaları ---
+# Eğer kodun csv veya excel üretiyorsa ve bunları yüklemek istemiyorsan:
+*.csv
+*.xlsx
+outputs/
